@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+    <!-- Página de contacto -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>Encuéntranos - DIY Kits</title>
+</head>
+<body>
+    <div id="wrapper-general"></div>
+        <header class="header">
+            <nav>
+            <a href="index.html">Inicio</a>
+            <a href="kits.html">Kits</a>
+            <a href="ideas.html">Ideas</a>
+            <a href="encuentranos.html">Encuéntranos</a>
+            <a href="conocenos.html">Conócenos</a>
+            </nav>
+            <h1>DIY Kits</h1>
+            <img id=bolsa src="imagenes\bolsa.png" alt="Bolsa de compras">
+        </header>
+    <section class="main">
+        <div class="contenido">
+            <h1>Encuéntranos</h1>
+            <div class="encuentranos">
+                      <!-- Formulario de contacto -->
+        <section>
+            <h3>Déjanos tus datos</h3>
+            <div class="formulario__contacto">    
+                <form action="">
+                <label for="Nombre">Tu nombre:</label>
+                <input type="text" name="Nombre">
+                <br>
+                <br>
+                <label for="Apellido">Tu apellido:</label>
+                <input type="text" name="Apellido">
+                <br>
+                <br>
+                <label for="Email">Tu email:</label>
+                <input type="email" name="Email">
+                <br>
+                <br>
+                <label for="Categoriakits">¿En cuál kit estás interesado?</label>
+                <select name="Categoriakits" id="kit">
+                    <option value="Chef">Chef en casa</option>
+                    <option value="Tejedor">Tejedor</option>
+                    <option value="Sembrador">Sembrador</option>
+                </select>
+                <br>
+                <br>
+                <label for="UsoDatos">Acepto el uso de mis datos</label>
+                <input type="checkbox" name="UsoDatos" value=1>
+                <br>
+                <br>
+                <input type="submit" value="Enviar info">
+                <input type="reset" value="Limpiar formulario">
+                
+                </form>
+            </div>
+        </section>
+        <section class=mapa>
+            <h3>Visítanos</h3>
+            <div><img src="./imagenes/mapa.jfif" alt="Mapa ubicación empresa">
+            </div>
+        </section>
+            </div>
+      
+        </div>
+    </section>
+    </div>
+</body>
+<!-- Sección footer -->
+<footer class="footer">DIY Kits - <strong>Colombia</strong> - 2021</footer>
+</html>
