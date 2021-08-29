@@ -1,10 +1,10 @@
-#wrapper-general {
+/*#wrapper-general {
     display: grid;
     grid-template-areas: 
 'header header header'
 'main main main'
 'footer footer footer'
-}
+}*/
 
 .header {
     grid-area: header;
@@ -48,7 +48,8 @@
 }
 .footer{    
     grid-area: footer;
-    grid-template-columns: repeat(4, 1fr);
+    background-color: #df786144;
+    grid-template-columns: 1fr;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,8 +65,8 @@ nav p{
 }
 #bolsa {
     display: flex;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     padding: 10px;
 }
 
@@ -89,9 +90,7 @@ table tr{
     background-color: #df78618c;
     display: flex;
     gap: 20px;
-    flex-direction: row;
     width: auto;
-    height: fit-content;
     padding: 20px;
     flex-wrap: wrap;
     justify-content: center;
@@ -131,7 +130,6 @@ table tr{
     align-self: center;
     justify-self: center;
 
-
 }
 .botonCompra{
     align-self: center;
@@ -142,7 +140,6 @@ table tr{
     height: 250px;
     object-fit: cover;
 }
-
 .personal{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
