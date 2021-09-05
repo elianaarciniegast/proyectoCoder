@@ -14,22 +14,22 @@
 <body>
     <div id="wrapper-general">
         <header class="header">
-            <nav>
-            <a href="index.html">Inicio</a>
-            <a href="kits.html">Kits</a>
-            <a href="ideas.html">Ideas</a>
-            <a href="encuentranos.html">Encuéntranos</a>
-            <a href="conocenos.html">Conócenos</a>
+            <nav class="header__links">
+            <a class="header__link" href="index.html">Inicio</a>
+            <a class="header__link" href="kits.html">Kits</a>
+            <a class="header__link" href="ideas.html">Ideas</a>
+            <a class="header__link" href="encuentranos.html">Encuéntranos</a>
+            <a class="header__link" href="conocenos.html">Conócenos</a>
             </nav>
-            <h1>DIY Kits</h1>
+            <img id=logo src="imagenes/logodiykits.png">
             <img id=bolsa src="imagenes\bolsa.png" alt="Bolsa de compras">
         </header>
     <section class="main">
         <div class="contenido">
             <h1>Kits</h1>
             <div class="productos">
-                <div class="kit1">
-                    <img src="https://picsum.photos/300" alt="Imagen kit 1">
+                <div class="cupcake-kit">
+                    <img src="./imagenes/cupcake-kit.jfif" alt="Imagen kit 1">
                     <h2>Kit cupcakes</h2>
                     <p>Con el kit de cupcakes podrás hacer una rica receta para toda tu familia. Contiene todos los ingredientes necesarios para realizar una docena de cupcakes.</p>
                     <h3>45.000 COP</h3>
@@ -37,8 +37,8 @@
                         Comprar
                     </button>
                 </div>
-                <div class="kit2">
-                    <img src="https://picsum.photos/300" alt="Imagen kit 1">
+                <div class="amigurumi-kit">
+                    <img src="./imagenes/amigurumi-kit.jfif" alt="Imagen kit 1">
                     <h2>Kit amigurumi</h2>
                     <p>Con el kit de amigurumi harás un amigurumi desde cero. Contiene todos los elementos necesarios para realizarlo.	
                     </p>
@@ -47,8 +47,8 @@
                         Comprar
                     </button>
                 </div>
-                <div class="kit3">
-                    <img src="https://picsum.photos/300" alt="Imagen kit 1">
+                <div class="huerto-kit">
+                    <img src="./imagenes/huerto-kit.jfif" alt="Imagen kit 1">
                     <h2>Kit huerto</h2>
                     <p>Con el kit de huerto podrás crear tu primera huerta en casa. Contiene todos los elementos necesarios para realizarla.</p>
                     <h3>80.000 COP</h3>
@@ -56,8 +56,8 @@
                         Comprar
                     </button>
                 </div>
-                <div class="kit4">
-                    <img src="https://picsum.photos/300" alt="Imagen kit 1">
+                <div class="pizza-kit">
+                    <img src="./imagenes/pizza-kit.jfif" alt="Imagen kit 1">
                     <h2>Kit pizza</h2>
                     <p>Con el kit de pizza podrás tener, ¡una gran experiencia! Contiene todos los ingredientes necesarios para realizar dos pizzas personales</p>
                     <h3>50.000 COP</h3>
@@ -65,8 +65,8 @@
                         Comprar
                     </button>
                 </div>
-                <div class="kit5">
-                    <img src="https://picsum.photos/300" alt="Imagen kit 1">
+                <div class="dye-kit">
+                    <img src="./imagenes/dye-kit.jfif" alt="Imagen kit 1">
                     <h2>Kit dye shirt</h2>
                     <p>Con el kit dye shirt podrás crear tu propia versión de camiseta multicolor. Contiene todos los elementos para realizar dos camisetas.</p>
                     <h3>80.000 COP</h3>
@@ -74,8 +74,8 @@
                         Comprar
                     </button>
                 </div>
-                <div class="kit6">
-                    <img src="https://picsum.photos/300" alt="Imagen kit 1">
+                <div class="cojin-kit">
+                    <img src="./imagenes/cojin-kit.jfif" alt="Imagen kit 1">
                     <h2>Kit de cojín bordado</h2>
                     <p>Con el kit de cojín bordado podrás crear un cojín bordado y pasar unas tardes muy tranquilas. Contiene todos los elementos necesarios para crear tu cojín.</p>
                     <h3>90.000 COP</h3>
@@ -147,7 +147,8 @@
 </section>
     </div>
     <!--Footer section-->
-    <div class="container">
+    <section class="footer__section">
+        <div class="container">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
             <div class="col-md-4 d-flex align-items-center">
               <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
@@ -169,6 +170,8 @@
             </ul>
           </footer>
         </div>
+      </section>
+    </div>
     <!--JavaScript bundle with popper-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
     </script>

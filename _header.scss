@@ -1,0 +1,37 @@
+//header
+.header {
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #df7861e9;
+    font-weight: 650;
+    padding: 0 35px;
+
+    &__links {
+    gap: 1rem;
+    display: flex;
+    width: auto;
+    }
+
+     &__link {
+     color: rgb(255, 255, 255); 
+     text-decoration: none;
+     margin: 3rem;
+     }
+    &__title {
+        color:rgb(237, 224, 224);
+        font-weight: 850;
+    }
+     #logo {
+        height: 6rem;
+        width: auto;
+     }
+
+     #bolsa {
+        display: flex;
+        width: 45px;
+        height: 45px;
+        padding: 10px;
+    }
+}

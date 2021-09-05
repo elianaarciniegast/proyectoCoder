@@ -12,16 +12,16 @@
     <link rel="stylesheet" href="./style.css"/>
 </head>
 <body>
-    <div id="wrapper-general"></div>
+    <div id="wrapper-general">
         <header class="header">
-            <nav>
-            <a href="index.html">Inicio</a>
-            <a href="kits.html">Kits</a>
-            <a href="ideas.html">Ideas</a>
-            <a href="encuentranos.html">Encuéntranos</a>
-            <a href="conocenos.html">Conócenos</a>
+            <nav class="header__links">
+            <a class="header__link" href="index.html">Inicio</a>
+            <a class="header__link" href="kits.html">Kits</a>
+            <a class="header__link" href="ideas.html">Ideas</a>
+            <a class="header__link" href="encuentranos.html">Encuéntranos</a>
+            <a class="header__link" href="conocenos.html">Conócenos</a>
             </nav>
-            <h1>DIY Kits</h1>
+            <img id=logo src="imagenes/logodiykits.png">
             <img id=bolsa src="imagenes\bolsa.png" alt="Bolsa de compras">
         </header>
     <!-- Imágenes de ideas -->
@@ -34,23 +34,29 @@
                         <div class="col-6 d-flex flex-column align-items-center ms-md-auto mt-5">
                     <div class="idea1">
                         <img src="imagenes/idea1.png" alt="idea diy reciclaje">
+                        <h5 class="idea__title">Panel decorativo de cartón</h5>
                     </div>
                     <div class="idea2">    
                         <img src="imagenes/idea2.jpg" alt="idea diy cupcakes">
+                        <h5 class="idea__title">Decoración suculentas</h5>
                     </div>
                     <div class="idea3">
                         <img src="imagenes/idea3.jpg" alt="idea diy indigo">
+                        <h5 class="idea__title">Pañuelo decorativo indigo</h5>
                     </div>
                         </div>
                         <div class="col-6 d-flex flex-column align-items-center ms-md-auto mt-5">
                     <div class="idea4">
                         <img src="imagenes/idea4.jpg" alt="idea diy amigurumi">
+                        <h5 class="idea__title">Amigurumi hipopótamo</h5>
                     </div>
                     <div class="idea5">
-                        <img src="imagenes/idea5.jpg" alt="idea diy reciclaje">
+                        <img src="imagenes/idea5.jpg" alt="idea huerto en casa">
+                        <h5 class="idea__title">Huerto en casa tipo vertical</h5>
                     </div>
                     <div class="idea6">
-                        <img src="imagenes/idea6.jpg" alt="idea diy reciclaje">
+                        <img src="imagenes/idea6.jpg" alt="idea camiseta diy">
+                        <h5 class="idea__title">Camiseta arcoiris</h5>
                     </div>
                     </div>
                 </div>
@@ -59,7 +65,8 @@
         </div>
     </section>
     <!--Footer section-->
-    <div class="container">
+    <section class="footer__section">
+        <div class="container">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
             <div class="col-md-4 d-flex align-items-center">
               <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
@@ -81,6 +88,7 @@
             </ul>
           </footer>
         </div>
+      </section>
     </div>
     <!--JavaScript bundle with popper-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
